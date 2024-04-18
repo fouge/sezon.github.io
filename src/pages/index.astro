@@ -4,8 +4,8 @@ import Container from '../components/Container.astro';
 import SignupForm from '../components/SignupForm.astro';
 
 const seo = {
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
+  title: 'Bienvenue chez Sezon',
+  description: 'Retrouvez notre foodtruck entre Nantes et Ancenis.',
 }
 ---
 
@@ -15,7 +15,7 @@ const seo = {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 40vh;
     text-align: center;
   }
 </style>
@@ -23,9 +23,15 @@ const seo = {
 <Layout seo={seo}>
   <Container narrow>
     <article class="hero__article">
-      <h1 class="fade-in">Coming Soon</h1>
-      <p class="fade-in">Be the first to know when our new site is live!</p>
-      <SignupForm />
+      <h2 class="fade-in">Foodtruck entre Ancenis et Nantes</h1>
+      <p class="fade-in">🚧 Site en construction</p>
+      <!-- <SignupForm /> -->
+      <!-- add blank space here -->
+      <br/>
+      <br/>
+      <p>📞 <a href="tel:06.49.55.01.52">06.49.55.01.52</a></p>
+      <p>📧 <a href="mailto:bonjour@sezon.fr">bonjour@sezon.fr</a></p>
+      <div>
     </article>
   </Container>
 </Layout>

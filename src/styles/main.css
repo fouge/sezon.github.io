@@ -25,8 +25,8 @@
   --step-4: clamp(2.59rem, calc(2.01rem + 2.93vw), 5.53rem);
   --step-5: clamp(3.11rem, calc(2.26rem + 4.25vw), 7.37rem);
 
-  --font-family-heading: 'Roboto Flex', sans-serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-heading: "impact", "arial black", sans-serif;
+  --font-family-body: "american typewriter", sans-serif;
 
   --body-max-width: 1920px;
 
@@ -96,10 +96,12 @@ h4 {
 
 h1, h2, h3 {
   max-width: 30ch;
+  color: #851d0f;
 }
 
 p, li {
   max-width: 70ch;
+  color: #e24716;
 }
 
 /* Gloal fade in animation */

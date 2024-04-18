@@ -2,26 +2,11 @@ export const socials = [
   {
     title: 'Instagram',
     icon: 'mdi:instagram',
-    url: 'https://www.instagram.com/jaydanurwin/',
+    url: 'https://www.instagram.com/sezon.foodtruck/',
   },
   {
-    title: 'Twitter',
-    icon: 'mdi:twitter',
-    url: 'https://twitter.com/littlesticksdev',
+    title: 'Facebook',
+    icon: 'mdi:facebook',
+    url: 'https://facebook.com/sezon.foodtruck',
   },
-  {
-    title: 'YouTube',
-    icon: 'mdi:youtube',
-    url: 'https://youtube.com/c/LittleSticks',
-  },
-  {
-    title: 'GitHub',
-    icon: 'mdi:github',
-    url: 'https://github.com/littlesticksdev',
-  },
-  {
-    title: 'Dribbble',
-    icon: 'mdi:dribbble',
-    url: 'https://dribbble.com/littlesticksdev',  
-  }
 ]
